@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+html lang="zh-CN">
+head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>我的互动介绍</title>
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+/head>
+body>
+   <div class="container">
+       <img src="assets/background.jpg" alt="背景图" class="background-image">
+       
+       <!-- 交互区域 -->
+       <div class="hotspot character" data-text="一位热爱唱歌画画、被爱好环绕的老二次元，清华毕业的投资并购律师，移动鼠标看看让我介绍我的爱好吧！"></div>
+       <div class="hotspot easel" data-text="刺绣能让我进入心流，给我无限治愈"></div>
+       <div class="hotspot plant" data-text="植物培育新手，菜但有瘾，最大的成就是家里的柠檬已经是来时的两倍大啦！"></div>
+       <div class="hotspot guitar" data-text="大学摇滚乐队主唱，艰难地从民谣转战指弹中"></div>
+       <div class="hotspot computer" data-text="AI太有意思了！！点燃了文科生想用代码创造世界的心！"></div>
+       <div class="hotspot carpet"></div>
+        <!-- 文字提示框 -->
+       <div class="tooltip"></div>
+       
+       <!-- 圣诞树和音乐 -->
+       <div class="christmas-tree hidden"></div>
+       <audio id="jingleBells" muted>
+           <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+       </audio>
+        <!-- 音量控制 -->
+       <div class="sound-control">
+           <button id="toggleSound">
+               <i class="fas fa-volume-mute"></i>
+           </button>
+       </div>
+   </div>
+   <script src="script.js"></script>
+/body>
+/html>

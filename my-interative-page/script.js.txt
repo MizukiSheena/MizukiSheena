@@ -1,0 +1,81 @@
+document.addEventListener('DOMContentLoaded', () => {
+   const tooltip = document.querySelector('.tooltip');
+   const christmasTree = document.querySelector('.christmas-tree');
+   const audio = document.getElementById('jingleBells');
+   const soundButton = document.getElementById('toggleSound');
+   let isMuted = true;
+    // 音量控制
+   soundButton.addEventListener('click', () => {
+       isMuted = !isMuted;
+       audio.muted = isMuted;
+       soundButton.innerHTML = isMuted ? 
+           '<i class="fas fa-volume-mute"></i>' : 
+           '<i class="fas fa-volume-up"></i>';
+   });
+   
+   // 处理普通热区
+   document.querySelectorAll('.hotspot').forEach(hotspot => {
+       hotspot.addEventListener('mouseenter', (e) => {
+           if (hotspot.classList.contains('carpet')) {
+               handleCarpet();
+               return;
+           }
+           
+           const text = hotspot.dataset.text;
+           showTooltip(text, e);
+       });
+       
+       hotspot.addEventListener('mouseleave', () => {
+           if (!hotspot.classList.contains('carpet')) {
+               hideTooltip();
+           }
+       });
+   });
+    function showTooltip(text, event) {
+       tooltip.textContent = text;
+       tooltip.style.opacity = '1';
+       tooltip.style.transform = 'translateY(0)';
+       
+       // 计算提示框位置
+       const rect = event.target.getBoundingClientRect();
+       const tooltipRect = tooltip.getBoundingClientRect();
+       
+       let left = rect.left + (rect.width - tooltipRect.width) / 2;
+       let top = rect.top - tooltipRect.height - 10;
+       
+       // 确保提示框不会超出屏幕
+       left = Math.max(10, Math.min(left, window.innerWidth - tooltipRect.width - 10));
+       top = Math.max(10, top);
+       
+       tooltip.style.left = `${left}px`;
+       tooltip.style.top = `${top}px`;
+   }
+    function hideTooltip() {
+       tooltip.style.opacity = '0';
+       tooltip.style.transform = 'translateY(20px)';
+   }
+    function handleCarpet() {
+       christmasTree.classList.remove('hidden');
+       christmasTree.style.opacity = '1';
+       
+       audio.currentTime = 0;
+       audio.play().catch(e => console.log('Auto-play prevented:', e));
+       
+       setTimeout(() => {
+           christmasTree.style.opacity = '0';
+           audio.pause();
+           
+           showTooltip('欢迎关注，期待多多交流哦！', {
+               target: {
+                   getBoundingClientRect: () => ({
+                       left: window.innerWidth / 2 - 150,
+                       top: window.innerHeight / 2,
+                       width: 300
+                   })
+               }
+           });
+           
+           setTimeout(hideTooltip, 5000);
+       }, 3000);
+   }
+);
