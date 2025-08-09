@@ -74,7 +74,7 @@ Various MCP-based tool integrations | 各类 MCP 协议工具调用
 ---
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME/YOUR_USERNAME/graphs/traffic">
+  <a href="https://github.com/MizukiSheena/MizukiSheena/graphs/traffic">
     📊 View My Profile Insights | 查看我的访问统计
   </a>
 </p>
