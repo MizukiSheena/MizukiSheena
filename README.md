@@ -58,11 +58,11 @@ Various MCP-based tool integrations | 各类 MCP 协议工具调用
 
 ### 🚀 Featured Projects | 代表项目
 
-| Project | Description |
-|---------|-------------|
-| **📊 Contract Analyzer** | NLP-based contract clause extractor |
-| **📈 Project Dashboard** | Streamlit dashboard for case tracking |
-| **🤖 AI Prompt Tools** | Prompt engineering toolkit |
+| Project | Description | Link |
+|---------|-------------| -----|
+| **📊 Agreement Analyzer** | NLP-based contract clause extractor | https://agreement-analyzer.streamlit.app/ |
+| **📈 Investment Project Dashboard** | Streamlit dashboard for case tracking | https://mizukisheena.github.io/Investment-Project-Dashboard/ |
+| **🤖 AI Prompt Tools** | Prompt engineering toolkit | https://mizukisheena.github.io/Guide-Audio-du-Louvre/, https://mizukisheena.github.io/france-visa-DIY/... |
 
 ---
 
