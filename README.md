@@ -1,44 +1,62 @@
-# GitHub Profile README
+<!-- GitHub Profile README -->
 
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/187792952?v=4" width="120" height="120" style="border-radius:50%">
 </p>
 
-<h1 align="center">👋 Hi, I'm Mizuki | 你好，我是 Mizuki</h1>
+<h1 align="center">👋 Hi, I'm Mizuki | 你好，我是Mizuki</h1>
 
 <p align="center">
+⚖️ <b>Legal + 🤖 AI Builder</b><br>
 💼 <b>Legal Professional @ Tech Giant | 互联网大厂法务</b><br>
-🛠 <b>AI-Driven Side Projects | AI 驱动的小工具开发</b>
+🛠 <b>Vibe Coder with Multi-Tool Tech Stack | AI 工具生态全能玩家</b>
 </p>
 
 ---
 
-## 📖 About Me | 关于我
+### 📖 About Me | 关于我
 
 - 🎯 **Primary Role | 本职工作**: Corporate Legal Counsel at a leading tech company  
-  头部科技公司法务，专注投资并购交易 
-
+  头部科技公司法务，专注投资并购交易
 - 💡 **Interests | 兴趣领域**: Exploring the intersection of law ⚖ and technology 💻  
-  探索法律与技术的交汇点  
-
+  探索法律与技术的交汇点
 - 🛠 **Projects | 项目方向**:  
   - AI-assisted coding tools | AI 编程工具  
   - Legal-tech automation | 法律科技自动化  
   - Streamlit dashboards | Streamlit 可视化应用  
+  - Workflow automation | 流程自动化
 
 ---
 
-## 🧰 Tech Stack | 技术栈
+### 🧰 Tech Stack | 技术栈
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Markdown](https://img.shields.io/badge/-Markdown-000000?style=flat&logo=markdown&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/-ChatGPT-412991?style=flat&logo=openai&logoColor=white)
+**💻 AI Coding Tools**  
+![Cursor](https://img.shields.io/badge/-Cursor-blue?style=flat) ![VSCode Insider](https://img.shields.io/badge/-VS%20Code%20Insider-007ACC?style=flat&logo=visualstudiocode&logoColor=white) ![Trae](https://img.shields.io/badge/-Trae-green?style=flat) ![Manus](https://img.shields.io/badge/-Manus-orange?style=flat)
+
+**⚙️ Workflow & Automation**  
+![n8n](https://img.shields.io/badge/-n8n-EA4C89?style=flat&logo=n8n) ![Dify](https://img.shields.io/badge/-Dify-FF9800?style=flat) ![Coze](https://img.shields.io/badge/-Coze-4CAF50?style=flat)
+
+**🧠 LLM Models**  
+![GPT](https://img.shields.io/badge/-GPT-412991?style=flat&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/-Claude-000000?style=flat) ![Gemini](https://img.shields.io/badge/-Gemini-4285F4?style=flat&logo=google)
+
+**🎨 AI Image Generation**  
+![Flux](https://img.shields.io/badge/-Flux-purple?style=flat) ![Midjourney](https://img.shields.io/badge/-Midjourney-000000?style=flat) ![豆包](https://img.shields.io/badge/-豆包-yellow?style=flat) ![即梦](https://img.shields.io/badge/-即梦-pink?style=flat)
+
+**🎥 AI Video Generation**  
+![可灵](https://img.shields.io/badge/-可灵-red?style=flat) ![即梦视频](https://img.shields.io/badge/-即梦视频-purple?style=flat)
+
+**🌐 No/Low Code Frontend**  
+![No Code](https://img.shields.io/badge/-No%20Code-2196F3?style=flat) ![Lovable](https://img.shields.io/badge/-Lovable-FF4081?style=flat)
+
+**🛠 Programming & Libraries**  
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![python-docx](https://img.shields.io/badge/-python--docx-lightgrey?style=flat) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+
+**🔌 MCP Tool Calls**  
+Various MCP-based tool integrations | 各类 MCP 协议工具调用
 
 ---
 
-## 🚀 Featured Projects | 代表项目
+### 🚀 Featured Projects | 代表项目
 
 | Project | Description |
 |---------|-------------|
@@ -48,10 +66,10 @@
 
 ---
 
-## 📫 How to reach me | 联系我
+### 📫 How to reach me | 联系我
 
 - 📧 Email: lc09@tsinghua.org.cn  
-- 🌐 bilibili: [https://space.bilibili.com/652267](https://space.bilibili.com/652267)
+- 🌐 bilibili: https://space.bilibili.com/652267
 
 ---
 
@@ -59,5 +77,5 @@
   <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=blue&style=flat" alt="Profile Views" />
 </p>
 
-> 📌 *From legal documents to code repositories — building bridges between disciplines.*  
-> 📌 *从法律文书到代码仓库——在跨界中架设桥梁*
+> 📌 *From legal documents to AI-powered workflows — building bridges between disciplines.*  
+> 📌 *从法律文书到 AI 流程——在跨界中架设桥梁*
