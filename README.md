@@ -74,7 +74,9 @@ Various MCP-based tool integrations | 各类 MCP 协议工具调用
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=blue&style=flat" alt="Profile Views" />
+  <a href="https://github.com/YOUR_USERNAME/YOUR_USERNAME/graphs/traffic">
+    📊 View My Profile Insights | 查看我的访问统计
+  </a>
 </p>
 
 > 📌 *From legal documents to AI-powered workflows — building bridges between disciplines.*  
