@@ -17,12 +17,10 @@
 ### 📖 About Me | 关于我
 
 - 🎯 **Primary Role | 本职工作**:
-  Corporate Legal Counsel at a leading tech company  
-  头部科技公司法务，专注投资并购交易
+  Corporate Legal Counsel at a leading tech company  |  头部科技公司法务，专注投资并购交易
   
 - 💡 **Interests | 兴趣领域**:
-  Exploring the intersection of law ⚖ and technology 💻
-  探索法律与技术的交汇点
+  Exploring the intersection of law ⚖ and technology 💻  |  探索法律与技术的交汇点
   
 - 🛠 **Projects | 项目方向**:  
   - AI-assisted coding tools | AI 编程工具  
